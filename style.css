@@ -1,0 +1,40 @@
+.flexbox_container{
+    display: flex;
+    
+}
+
+.itemP{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+}
+
+.itemM{
+    width: 220px;
+    height: 220px;
+    background-color: gold;
+}
+
+.itemG{
+    width: 460px;
+    height: 460px;
+    background-color: crimson;
+}
+#box1{
+    flex-direction: column;
+    justify-content: space-between ;
+}
+#box2{
+    justify-content: space-evenly;
+}
+#box3{
+    align-items: center;
+}
+
+
+
+.vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
